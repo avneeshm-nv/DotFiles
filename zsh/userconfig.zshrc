@@ -286,3 +286,9 @@ function pyenv-init() {
     eval "$(pyenv init -)"
 }
 # ---------------------------------------
+
+# ~~~~~~~~~~~ NVIDIA NDAS Work related ~~~~~~~~~~~
+# Source the environment (setup script)
+alias ndass="source ./scripts/envsetup.sh"
+# Compile the database (for clang intellisense) - generate ./compile_commands.json
+alias ndascdb="./bazel/scripts/generate_compiledb.py --thirdparty --cuda --nodefaults --dedup"
