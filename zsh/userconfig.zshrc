@@ -188,25 +188,25 @@ function conda-rrc-init() {
     # conda config --set auto_activate_base false
     # <<< conda initialize
 }
-# Initialize mamba
+# Initialize mamba (now uses miniforge3)
 function mamba-init() {
     # >>> conda initialize >>>
     # !! Contents within this block are managed by 'conda init' !!
-    __conda_setup="$('/home2/avneesh.mishra/mambaforge/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+    __conda_setup="$('/home/avneeshm/miniforge3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
     if [ $? -eq 0 ]; then
         eval "$__conda_setup"
     else
-        if [ -f "/home2/avneesh.mishra/mambaforge/etc/profile.d/conda.sh" ]; then
-            . "/home2/avneesh.mishra/mambaforge/etc/profile.d/conda.sh"
+        if [ -f "/home/avneeshm/miniforge3/etc/profile.d/conda.sh" ]; then
+            . "/home/avneeshm/miniforge3/etc/profile.d/conda.sh"
         else
-            export PATH="/home2/avneesh.mishra/mambaforge/bin:$PATH"
+            export PATH="/home/avneeshm/miniforge3/bin:$PATH"
         fi
-    fi
+    fi  
     unset __conda_setup
     
-    if [ -f "/home2/avneesh.mishra/mambaforge/etc/profile.d/mamba.sh" ]; then
-        . "/home2/avneesh.mishra/mambaforge/etc/profile.d/mamba.sh"
-    fi
+    if [ -f "/home/avneeshm/miniforge3/etc/profile.d/mamba.sh" ]; then
+        . "/home/avneeshm/miniforge3/etc/profile.d/mamba.sh"
+    fi  
     # <<< conda initialize <<<
 }
 function mamba-scratch-init-old() { # Use the alias with the script
