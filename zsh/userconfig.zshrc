@@ -4,6 +4,11 @@
 # --------------------- ZSH ---------------------
 # Clear history menu using Esc
 bindkey -M menuselect -s '^[' '^G^_'
+# Command time
+#   From: https://github.com/popstas/zsh-command-time
+export ZSH_COMMAND_TIME_MIN_SECONDS=90
+export ZSH_COMMAND_TIME_MSG="Execution time: %s (duration)"
+export ZSH_COMMAND_TIME_COLOR="cyan"
 # -----------------------------------------------
 
 # --------- Path ----------
