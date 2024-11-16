@@ -58,6 +58,8 @@ alias mi="mamba-init"
 alias ma="mamba activate"    
 alias mima="mamba-init && mamba activate"    
 alias mami="mima"
+# Git
+alias glgnsp="git log --numstat --patch"
 # -----------------------------------------
 
 # -------------------- Functions --------------------
@@ -297,3 +299,5 @@ function pyenv-init() {
 alias ndass="source ./scripts/envsetup.sh"
 # Compile the database (for clang intellisense) - generate ./compile_commands.json
 alias ndascdb="./bazel/scripts/generate_compiledb.py --thirdparty --cuda --nodefaults --dedup"
+# Git push branch
+alias ggpush-l2pp="git push origin HEAD:refs/for/av-dev-l2pp-2"
