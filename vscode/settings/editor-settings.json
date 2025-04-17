@@ -15,6 +15,11 @@
     "editor.lineNumbers": "relative",
     // Treat underscore "_" as a word separator
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
+    // Set the color of the active tab as white (border) and inactive background as black (useful for cursor)
+    "workbench.colorCustomizations": {
+        "tab.activeBorderTop": "#ffffff",
+        "tab.inactiveBackground": "#000000",
+    }
     // JSON has comments
     "files.associations": {
         "*.json": "jsonc"
