@@ -301,3 +301,26 @@ alias ndass="source ./scripts/envsetup.sh"
 alias ndascdb="./bazel/scripts/generate_compiledb.py --thirdparty --cuda --nodefaults --dedup"
 # Git push branch
 alias ggpush-l2pp="git push origin HEAD:refs/for/av-dev-l2pp-2"
+# All golden routes
+function source-golden-routes() {
+    # Input RC logs
+    export input_rc_log_cn_46574=/home/avneeshm/Downloads/maglev_av_sessions/1eebc6b8-8ce9-4397-9066-7fe69cd24226/1957635753670_1960725596763/nmm-filtered-roadcast_debug_without_gps.log
+    export input_rc_log_cn_46757=/home/avneeshm/Downloads/maglev_av_sessions/8de10a34-daae-4195-9720-14615c538885/15700315114695_15702907711340/nmm-filtered_roadcast_debug_without_gps.log
+    export input_rc_log_cn_hwy2sm=/home/avneeshm/Downloads/maglev_av_sessions/c3ba6244-d106-4ce7-9738-b7fe6aed2d3a/nmm-filtered-roadcast_debug_without_gps.log
+    export input_rc_log_rivermark=/home/avneeshm/Downloads/maglev_av_sessions/14203713-4c02-401e-8ebf-f85529ce6126/roadcast_debug_parsed.log
+    export input_rc_log_dtsj=/home/avneeshm/Downloads/maglev_av_sessions/0c6a404d-c021-421d-bf12-0171f2430756/dtsj_0c6a404d-c021-421d-bf12-0171f2430756_roadcast_debug_parsed.log
+    export input_rc_log_mtv=/home/avneeshm/Downloads/maglev_av_sessions/d44532c3-25c0-4c33-8b83-83fe66f06f0b/mtv_d44532c3-25c0-4c33-8b83-83fe66f06f0b_roadcast_debug_parsed-parsed.log
+    export input_rc_log_long_beach=/home/avneeshm/Downloads/maglev_av_sessions/636387ad-e036-44b2-973c-1484c9698764/nmm-filtered-roadcast_debug.log
+    export input_rc_log_route_86=/home/avneeshm/Downloads/maglev_av_sessions/d82e2d0b-ee13-467d-9892-2417a2560f5d/nmm_filtered-roadcast_debug.log
+    export input_rc_log_route_76=/home/avneeshm/Downloads/maglev_av_sessions/1c91f0be-3b71-4c0e-a125-7deaa1fa72a8/nmm_filtered-roadcast_debug.log
+    export input_rc_log_route_61=/home/avneeshm/Downloads/maglev_av_sessions/e20fc464-0719-457c-bad0-da4e02a18c21/nmm_filtered-roadcast_debug.log
+    export input_rc_log_route_55=/home/avneeshm/Downloads/maglev_av_sessions/a87571eb-4cec-4b64-9c9e-b3a09b7ac2bc/nmm_filtered-roadcast_debug.log
+    export input_rc_log_route_53=/home/avneeshm/Downloads/maglev_av_sessions/0c6d1b7d-92bf-4b0d-9e99-54594ca02557/nmm_filtered-roadcast_debug.log
+    export input_rc_log_route_25=/home/avneeshm/Downloads/maglev_av_sessions/a2054732-3126-420f-ae59-05062150b1e2/nmm_filtered-roadcast_debug.log
+    export input_rc_log_route_15=/home/avneeshm/Downloads/maglev_av_sessions/19e164da-57cb-4fce-a8c0-2d8c68cc3d18/nmm_filtered-roadcast_debug.log
+    export input_rc_log_route_05=/home/avneeshm/Downloads/maglev_av_sessions/f2d3ee21-15de-4d4c-9efd-013b8b161d3e/nmm_filtered-roadcast_debug.log
+    # Tile directory
+    export tile_dir_cn=/home/avneeshm/Downloads/maglev_av_sessions/tiles/cn_tiles_2024_07
+    export tile_dir_us=/home/avneeshm/Downloads/maglev_av_sessions/tiles/bayarea_2024_07
+}
+

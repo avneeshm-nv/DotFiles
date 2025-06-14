@@ -60,6 +60,7 @@ A list of my commonly used extensions
 ## References
 
 - Settings [variable reference](https://code.visualstudio.com/docs/editor/variables-reference)
+- VSCode [theme colors](https://code.visualstudio.com/api/references/theme-color) and [themes](https://code.visualstudio.com/docs/configure/themes)
 - [Debugging](https://code.visualstudio.com/docs/editor/debugging)
 - [Terminal basics](https://code.visualstudio.com/docs/terminal/basics)
     - [Clear terminal keybinding](https://code.visualstudio.com/docs/terminal/basics#_why-is-cmdkctrlk-not-clearing-the-terminal)
