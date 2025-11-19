@@ -47,6 +47,8 @@
         },
         "python.defaultInterpreterPath": "/scratch/avneesh/mambaforge/envs/sod/bin/python",
         // Do not source/activate python environment
-        // "python.terminal.activateEnvironment": false,
+        "python.terminal.activateEnvironment": false,
+        // Wrap tabs in the tab-bar (multiline tabs)
+        "workbench.editor.wrapTabs": true
     }
 }
