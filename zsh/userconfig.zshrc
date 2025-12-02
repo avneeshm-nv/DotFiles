@@ -301,6 +301,8 @@ alias ndass="source ./scripts/envsetup.sh"
 alias ndascdb="./bazel/scripts/generate_compiledb.py --thirdparty --cuda --nodefaults --dedup"
 # Git push branch
 alias ggpush-l2pp="git push origin HEAD:refs/for/av-dev-l2pp-2"
+# Git show (only commit body)
+alias gshb="git show -s --format='%B'"
 # All golden routes
 function source-golden-routes() {
     # Input RC logs
