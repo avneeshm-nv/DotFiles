@@ -303,6 +303,8 @@ alias ndascdb="./bazel/scripts/generate_compiledb.py --thirdparty --cuda --nodef
 alias ggpush-l2pp="git push origin HEAD:refs/for/av-dev-l2pp-2"
 # Git show (only commit body)
 alias gshb="git show -s --format='%B'"
+# Git pull branch (through ff only)
+alias ggpullff='git pull --ff-only origin "$(git_current_branch)"'
 # All golden routes
 function source-golden-routes() {
     # Input RC logs
