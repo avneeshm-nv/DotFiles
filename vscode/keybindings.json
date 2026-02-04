@@ -66,4 +66,9 @@
         "command": "bookmarks.jumpToPrevious",
         "when": "editorTextFocus"
     },
+    // Tabstronaut extension
+    {
+        "key": "ctrl+b t",
+        "command": "workbench.view.extension.tabstronaut"
+    }
 ]
