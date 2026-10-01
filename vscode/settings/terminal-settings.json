@@ -32,5 +32,8 @@
     // Font for terminal (in case)
     // Download from: https://github.com/romkatv/powerlevel10k/blob/master/font.md
     // "terminal.integrated.fontFamily": "agave Nerd Font r",
-    "terminal.integrated.fontFamily": "MesloLGS NF"
+    // "terminal.integrated.fontFamily": "MesloLGS NF"
+    // Or some work-related fonts
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+    "terminal.integrated.fontSize": 12
 }
